@@ -5,7 +5,7 @@
 int parser(int arr1[], int arr2[], int arr_size)
 {
     char buffer[16];
-    FILE * fptr = fopen("task1/test.txt", "r");
+    FILE * fptr = fopen("task1/test.txt", "rb");
     if (fptr == NULL) 
     {
         printf("Error opening the file.\n");
