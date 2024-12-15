@@ -32,7 +32,7 @@ static Bool sl2_bool = TRUE;
 int main()
 {
     parser(array1, 1000);
-    /* printf("Sl1: Safe reports: %d\n", solutionOne(1000, 8)); */
+    printf("Sl1: Safe reports: %d\n", solutionOne(1000, 8));
     printf("Sl2: Safe reports: %d\n", solutionTwo(1000, 8));
     return 0;
 }
