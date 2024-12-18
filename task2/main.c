@@ -29,6 +29,8 @@ static int sl2_array[8];
 static int sl2_error_index;
 static Bool sl2_bool = TRUE;
 
+/* TODO: Rewrite the task */
+
 int main()
 {
     parser(array1, 1000);

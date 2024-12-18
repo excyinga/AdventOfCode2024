@@ -38,8 +38,11 @@ int main()
     array = parser(); 
     printf("Sl1: %d\n", solutionOne());
     printf("Sl2: %d\n", solutionTwo());
+    free(array);
     return 0;
 }
+
+/* TODO: Rewrite the task */
 
 int solutionOne(void)
 {

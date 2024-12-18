@@ -18,6 +18,8 @@ void sortArray(int array[], int size);
 int solutionOne(int array1[], int array2[], int size);
 unsigned long int solutionTwo(F_SIGNATURE);
 
+/* TODO: Rewrite the task */
+
 int main()
 {
     int * array1 = malloc(sizeof(int) * ARRAY_SIZE);
