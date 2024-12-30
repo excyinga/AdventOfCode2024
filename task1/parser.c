@@ -22,7 +22,6 @@ int parser(int arr1[], int arr2[], int arr_size)
     fclose(fptr);
     return 1;
 }
-
 int intToString(char str[], int array_size)
 {
     int value = 0;
